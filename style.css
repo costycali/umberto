@@ -1,0 +1,55 @@
+img {
+    border-radius: 50%;
+}
+.center-box{
+    display: flex;
+    justify-content: center;
+}
+body{
+    background-color:yellow;
+}
+.myname{
+    color:rgb(3, 30, 148) ;
+    text-align: center;
+    font-size: 5rem;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+h3{
+    color:rgb(17, 0, 255);
+    font-size: 3rem;
+}
+p{
+    color:rgb(236, 87, 191);
+    font-size: 2rem;
+    
+}
+.s{
+    display:flex;
+    justify-content:space-between;
+}
+.link{
+    font-size:  3rem;
+
+}
+ .myname{
+    font-size: 50pt;
+    font-family: sans-serif;
+    text-shadow: 10px 11px 18px rgba(300, 180, 100, 1),
+    -10px -11px 18px rgb(0, 195, 255);
+    }
+    myname{
+        font-family: "bookman old style"
+      }
+      myname:first-child::first-letter{
+        font-family: "papyrus";
+        font-size: 25px
+        font-weight: bold
+      }
+
+       h3{
+        border: 1px solid rgb(25, 0, 255);;
+      }
+      
+      :optional {
+      border: 1px solid black;
+      }
